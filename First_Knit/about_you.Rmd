@@ -1,0 +1,101 @@
+---
+title: "First Knit"
+author: "Ariana Rodriguez"
+date: "Date 08 19, 2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+
+ 
+
+###my answer     
+  I am sitting in the third row on the left side of the class. I am sitting at computer number 23 and on a scale of 1-10, 1 being the worst, I rate seat changes as a 4. I see the benefit of it in some cases but for myself, I prefer to build a good relationship with the classmates I sit next to in order to help each other throughtout the semester. Yes I have worked in a one class setting before. 
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+###my answer     
+ Just being called "Ariana" is fine with me, although I have many nicknames, "Ariana" always seems to be the easiest to stick with. 
+   
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+ I aspire to be an RN (Registered Nurse) and being so young I will continue to strive for that until I reach it. After I achieve that goal, I may end up furthering my career and going for Nurse Practioner. Anatomy will definitely be my biggest interest in college, seeing how and why our bodies work the way they do has always been an interest of mine. I plan on at least earning my Bachelors degree in nursing.     
+   
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+  I have never been outside of the United States but one main place I would love to visit is Bali, Indonesia. The landscapes with all the trees is so beautiful in pictures and I definitely plan on experiencing it all for myself one day. I have never been in the military but if I were to join I would go into the AirForce. I have a military family with numerous members enlisted and hearing all the good feedback from the AirForce makes it so that would be my first pick if I were to join.  
+   
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+  Math 115 is a major course for entering the nursing program so I will be trying my best to earn an A in the class. Getting an A in math 115 will give me extra points for the nursing program to ensure my plans of getting into the program and pursing the path to obtain my degree in nursing. 
+   
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+ I would rate myself as a 6 when it comes to knowing computers. I have a windows laptop with internet access which I use both at home and at school, but I have never really used my laptop for anything other than school work so as far as knowing about computers I know how to type an essay and turning it in to turnitin.com. 
+ I am currently using my parents extra car to get to and from work and school until I can save up to buy my own car. There are no restrictions as far as me being limited to be at school since my job works around my school schedule. I graduated in 2018 from Palmdale High School and I am currently working at Best Buy as a customer service specialist. 
+   
+  
+
+
+
+
